@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@types/express": "^4.17.21",
+    "sequelize-cli": "^6.6.2",
     "typescript": "^5.4.3"
   },
   "name": "couchsurfing-excersice",
@@ -8,11 +9,16 @@
   "description": "excerisce for couchsurfing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node dist/app.js"
   },
   "author": "Irving Crespo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "sequelize": "^6.37.2",
+    "sequelize-typescript": "^2.1.6",
+    "sqlite3": "^5.1.7"
   }
 }
