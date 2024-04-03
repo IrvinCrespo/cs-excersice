@@ -22,8 +22,6 @@ Then we can run container
 
 `docker run --name users-container -t -p 3000:3000 users-image`
 
-docker run -t -p 3000:3000 users-friends users-friends
-
 ## Endpoints
 
 ### `GET /users`
